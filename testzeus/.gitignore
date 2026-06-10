@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+playwright-report/
+results/
+runtime-context.json
+fixtures/
+.env
