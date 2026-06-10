@@ -1,0 +1,19 @@
+{
+  "name": "testzeus-sdet-suite",
+  "private": true,
+  "description": "TestZeus-managed Playwright automation. Specs are generated from manual runs; edit with care.",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "unpdf": "^1.6.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
