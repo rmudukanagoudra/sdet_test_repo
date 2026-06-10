@@ -1,0 +1,21 @@
+{
+  "source_test_run_id": "b68n30x0srf5vge",
+  "test_id": "x02jw0brk1cau4l",
+  "slug": "user_creates",
+  "step_count": 6,
+  "variables_used": [
+    "tz.input.frontdoor",
+    "tz.input.account_name"
+  ],
+  "files_used": [],
+  "outputs_emitted": [
+    "account_id",
+    "account_name"
+  ],
+  "improvements_from_previous_version": [
+    "Use tz.resolveSalesforceInstanceUrl() with frontdoor-origin fallback (SALESFORCE_FEATURES §0c)",
+    "Escape accountName for safe regex use in heading and title assertions",
+    "Verified all locators against TEB a11y.compact.json snapshots — no changes needed"
+  ],
+  "warnings": []
+}
