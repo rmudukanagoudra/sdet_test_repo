@@ -1,0 +1,14 @@
+{
+  "source_test_run_id": "x02jw0brk1cau4l",
+  "step_count": 8,
+  "variables_used": [
+    "tz.input.frontdoor",
+    "tz.input.account_name"
+  ],
+  "files_used": [],
+  "outputs_emitted": [
+    "account_id",
+    "account_name"
+  ],
+  "warnings": []
+}
