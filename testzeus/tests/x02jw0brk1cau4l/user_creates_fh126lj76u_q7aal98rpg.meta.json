@@ -1,0 +1,25 @@
+{
+  "source_test_run_id": "x02jw0brk1cau4l",
+  "step_count": 9,
+  "variables_used": [
+    "tz.input.frontdoor",
+    "tz.input.account_name"
+  ],
+  "files_used": [],
+  "outputs_emitted": [
+    "account_id",
+    "account_name"
+  ],
+  "warnings": [
+    {
+      "step_id": "u1jgcqi4n0jj78l",
+      "expr": "page.getByRole(\"combobox\").first()",
+      "reason": "App Launcher search combobox not present in Playwright aria_snapshot (shadow DOM). getByRole() pierces shadow DOM at runtime. If this fails, try page.locator('input[role=\"combobox\"]') as an alternative."
+    },
+    {
+      "step_id": "u0lgms4hqt1zrv3",
+      "expr": "page.getByRole(\"option\", { name: /Accounts/i }).first()",
+      "reason": "App Launcher result items not present in Playwright aria_snapshot (shadow DOM). Playwright getByRole() should resolve them at runtime. Verify the option role matches the SF App Launcher search result DOM."
+    }
+  ]
+}
