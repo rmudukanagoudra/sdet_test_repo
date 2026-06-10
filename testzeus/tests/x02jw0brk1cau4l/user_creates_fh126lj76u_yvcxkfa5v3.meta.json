@@ -1,0 +1,14 @@
+{
+  "source_test_run_id": "yxdputpm9iw71t5",
+  "step_count": 9,
+  "variables_used": [
+    "tz.input.frontdoor",
+    "tz.input.account_name"
+  ],
+  "files_used": [],
+  "outputs_emitted": [
+    "account_id",
+    "account_name"
+  ],
+  "warnings": []
+}
