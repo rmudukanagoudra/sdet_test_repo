@@ -1,0 +1,33 @@
+{
+  "feature": "Account Creation User",
+  "scenario": "User creates",
+  "spec_file": "tests/user_creates.spec.ts",
+  "steps": [
+    "Log in to Salesforce",
+    "Click on the App Launcher",
+    "Search and select Accounts from App Launcher",
+    "Click on the 'New' button in the Accounts list view",
+    "Dismiss guidance panel and calculate timestamp",
+    "Enter Account Name with timestamp",
+    "Click on the 'Save' button",
+    "Verify successful account creation and navigation"
+  ],
+  "inputs": {
+    "frontdoor": "Session-authenticated Salesforce frontdoor URL (required)",
+    "account_name": "Account name prefix (optional — defaults to Test<epoch-ms>)"
+  },
+  "outputs": [
+    "account_name",
+    "account_id"
+  ],
+  "screenshots": [
+    "results/step-1-login.png",
+    "results/step-2-app-launcher.png",
+    "results/step-3-accounts.png",
+    "results/step-4-new-account.png",
+    "results/step-5-guidance-dismissed.png",
+    "results/step-6-account-name.png",
+    "results/step-7-save.png",
+    "results/step-8-verify.png"
+  ]
+}
